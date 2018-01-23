@@ -1,0 +1,12 @@
+<h1>Counters Server</h1>
+
+<ul>
+  <li *ngFor="let counter of counters">
+    <div class="content">
+      <span class="name">{{counter.name}}</span>
+      <div class="value">
+        <span>{{counter.value | counter}}</span>
+      </div>
+    </div>
+  </li>
+</ul>

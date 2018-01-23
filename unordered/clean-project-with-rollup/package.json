@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@angular/common": "^5.2.1",
+    "@angular/compiler": "^5.2.1",
+    "@angular/compiler-cli": "^5.2.1",
+    "@angular/core": "^5.2.1",
+    "@angular/platform-browser": "^5.2.1",
+    "@types/node": "^9.3.0",
+    "google-closure-compiler-js": "^20180101.0.0",
+    "rollup": "^0.54.1",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^3.0.0",
+    "rxjs": "^5.5.6",
+    "tslib": "^1.9.0",
+    "typescript": "^2.6.2",
+    "zone.js": "^0.8.20"
+  }
+}

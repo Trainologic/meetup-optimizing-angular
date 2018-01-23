@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es2017",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "es2017"],
+    "outDir": "./tsc_out",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "importHelpers": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

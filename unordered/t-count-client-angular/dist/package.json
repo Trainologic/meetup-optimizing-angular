@@ -1,0 +1,11 @@
+{
+  "name": "t-count-client-angular",
+  "version": "1.0.3",
+  "main": "main.js",
+  "author": "Ori Calvo",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^5.2.1",
+    "@angular/core": "^5.2.1"
+  }
+}

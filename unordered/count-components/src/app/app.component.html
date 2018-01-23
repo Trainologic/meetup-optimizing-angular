@@ -1,0 +1,19 @@
+<h1>Count Components</h1>
+
+<div>
+  <button (click)="noop()">Noop</button>
+  <button (click)="toggle()">Toggle</button>
+</div>
+
+<!--<span>{{counter}}</span>-->
+
+<!--<app-clock [format]="'HH:ss'" (tick)="onClockTick()"></app-clock>-->
+
+<!--<app-clock [format]="'HH:ss'" (tick)="onClockTick()"></app-clock>-->
+
+<ul *ngIf="showContacts">
+  <li *ngFor="let contact of contacts">
+    <app-contact-item [contact]="contact"></app-contact-item>
+  </li>
+</ul>
+
